@@ -1,0 +1,464 @@
+<title>Kept</title>
+<meta name="description" content="Kept is a concept website for a Sydney home cleaning business: regular, deep, end of lease and apartment cleaning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap">
+<!-- build:css css/kept.css -->
+
+<div class="page" id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Concept disclosure -->
+  <div class="concept">
+    <div class="wrap concept__inner">
+      <span><strong>Concept site.</strong> Kept is a fictional Sydney business. Prices, reviews, ratings and guarantees are sample content.</span>
+      <span>Nothing on this page books a real clean.</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="wrap header__inner">
+      <a class="wordmark" href="#top" aria-label="Kept, back to top">Kept<span class="wordmark__dot">.</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#how">How it works</a>
+        <a href="#included">What’s included</a>
+        <a href="#areas">Areas</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="header__phone" href="tel:0255504821">02 5550 4821</a>
+      <button class="btn btn--sm header__cta-desktop" type="button" data-quote>Get a quote</button>
+      <button class="btn btn--sm btn--ghost header__menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#included">What’s included</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#areas">Areas</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="menu__foot">
+      <button class="btn btn--block" type="button" data-quote>Get a quote <span class="btn__arrow" aria-hidden="true">→</span></button>
+      <p class="small">Call us on <span class="nowrap">02 5550 4821</span>, Monday to Saturday, 7am to 6pm.</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero__text">
+        <p class="label">Home cleaning across Sydney</p>
+        <h1 class="h-xl hero__title" id="heroTitle">A cleaner home, without giving up <em>Saturday.</em></h1>
+        <p class="lede">Regular, deep and end of lease cleaning for Sydney houses and apartments. The same trusted cleaner each visit, and a clear price before you book.</p>
+        <div class="hero__actions" id="heroActions">
+          <button class="btn" type="button" data-quote>Get a quote <span class="btn__arrow" aria-hidden="true">→</span></button>
+          <a class="link" href="#services">View services</a>
+        </div>
+        <p class="hero__assure">Instant estimate · No obligation · Takes about a minute</p>
+      </div>
+      <div class="hero__media">
+        <figure class="slot">
+          <div class="slot__frame r-2x3">
+            <canvas data-study="kitchen" role="img" aria-label="Image slot: morning light across a stone kitchen benchtop"></canvas>
+          </div>
+          <figcaption class="slot__cap">Image slot · Terrace kitchen, Balmain · Morning</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <ul class="facts" aria-label="At a glance">
+        <li class="facts__item"><span class="facts__value">4.9 / 5<span class="sup">*</span></span><span class="facts__desc">Average from 310 client reviews</span></li>
+        <li class="facts__item"><span class="facts__value">Police-checked</span><span class="facts__desc">Every cleaner, before their first clean</span></li>
+        <li class="facts__item"><span class="facts__value">$20m<span class="sup">*</span></span><span class="facts__desc">Public liability insurance</span></li>
+        <li class="facts__item"><span class="facts__value">Bond-back</span><span class="facts__desc">Re-clean guarantee on end of lease</span></li>
+      </ul>
+      <p class="note facts__note">* Sample figures for a concept site.</p>
+    </div>
+
+    <!-- Statement -->
+    <section class="section" aria-label="About Kept">
+      <div class="wrap grid">
+        <p class="label sec__label">Kept</p>
+        <div class="statement__text">
+          <p class="h-m">We’re a small Sydney team that cleans homes on a steady rhythm, with the same people each visit. We clean the parts you notice and the parts you don’t, then leave the place the way you like to find it.</p>
+          <p class="statement__small">No call centre and no rotating strangers. Your cleaner learns how you like the bed made and where the good tea towels go.</p>
+        </div>
+        <figure class="slot statement__media">
+          <div class="slot__frame r-1x1">
+            <canvas data-study="linen" role="img" aria-label="Image slot: folded linen at the end of a made bed in slatted light"></canvas>
+          </div>
+          <figcaption class="slot__cap">Image slot · Folded linen, detail</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 01 Services -->
+    <section class="section section--tight-top" id="services" aria-labelledby="servicesTitle">
+      <div class="wrap grid">
+        <p class="label sec__label"><span class="label__num">01</span>Services</p>
+        <div class="sec__body">
+          <div class="sec__head">
+            <h2 class="h-l" id="servicesTitle">Four ways to keep a home.</h2>
+            <p class="lede">Every clean is quoted up front. Prices below are starting rates for a one-bedroom, one-bathroom home.</p>
+          </div>
+
+          <div class="svc">
+            <ul class="svc__list" id="svcList">
+              <li class="svc-row is-active" data-service="regular">
+                <div>
+                  <h3 class="h-title svc-row__name">Regular home cleaning</h3>
+                  <p class="svc-row__desc">Weekly, fortnightly or monthly, with the same cleaner each visit. For busy households that want the place to stay done.</p>
+                  <div class="svc-row__links">
+                    <a class="link" href="#included" data-show-included="regular">What’s included</a>
+                    <button class="link" type="button" data-quote data-service="regular">Get a quote</button>
+                  </div>
+                </div>
+                <p class="svc-row__price"><span class="price-from">From</span><span class="price">$149</span><span class="price-unit">per visit</span></p>
+              </li>
+              <li class="svc-row" data-service="deep">
+                <div>
+                  <h3 class="h-title svc-row__name">Deep cleaning</h3>
+                  <p class="svc-row__desc">A top-to-bottom reset, inside the oven, along the skirting boards and into the grout. Good before guests, after a busy season, or to start regular cleans.</p>
+                  <div class="svc-row__links">
+                    <a class="link" href="#included" data-show-included="deep">What’s included</a>
+                    <button class="link" type="button" data-quote data-service="deep">Get a quote</button>
+                  </div>
+                </div>
+                <p class="svc-row__price"><span class="price-from">From</span><span class="price">$329</span><span class="price-unit">one-off</span></p>
+              </li>
+              <li class="svc-row" data-service="lease">
+                <div>
+                  <h3 class="h-title svc-row__name">End of lease cleaning</h3>
+                  <p class="svc-row__desc">Cleaned to the inspection checklists Sydney agents use. If your agent flags anything we covered, we come back and fix it at no cost.</p>
+                  <div class="svc-row__links">
+                    <a class="link" href="#included" data-show-included="lease">What’s included</a>
+                    <button class="link" type="button" data-quote data-service="lease">Get a quote</button>
+                  </div>
+                </div>
+                <p class="svc-row__price"><span class="price-from">From</span><span class="price">$390</span><span class="price-unit">one-off</span></p>
+              </li>
+              <li class="svc-row" data-service="apartment">
+                <div>
+                  <h3 class="h-title svc-row__name">Apartment cleaning</h3>
+                  <p class="svc-row__desc">Studios to three-bedroom apartments. We work with concierge, key safes and booked lift times, and we clean the balcony too.</p>
+                  <div class="svc-row__links">
+                    <a class="link" href="#included" data-show-included="apartment">What’s included</a>
+                    <button class="link" type="button" data-quote data-service="apartment">Get a quote</button>
+                  </div>
+                </div>
+                <p class="svc-row__price"><span class="price-from">From</span><span class="price">$129</span><span class="price-unit">per visit</span></p>
+              </li>
+            </ul>
+
+            <div class="svc__media" aria-hidden="true">
+              <div class="svc__stack">
+                <figure class="slot is-shown" data-for="regular">
+                  <div class="slot__frame r-4x5"><canvas data-study="living"></canvas></div>
+                  <figcaption class="slot__cap">Image slot · Living room, Leichhardt · Morning</figcaption>
+                </figure>
+                <figure class="slot" data-for="deep">
+                  <div class="slot__frame r-4x5"><canvas data-study="bathroom"></canvas></div>
+                  <figcaption class="slot__cap">Image slot · Tiled bathroom, window light</figcaption>
+                </figure>
+                <figure class="slot" data-for="lease">
+                  <div class="slot__frame r-4x5"><canvas data-study="empty"></canvas></div>
+                  <figcaption class="slot__cap">Image slot · Empty bedroom, handover day</figcaption>
+                </figure>
+                <figure class="slot" data-for="apartment">
+                  <div class="slot__frame r-4x5"><canvas data-study="balcony"></canvas></div>
+                  <figcaption class="slot__cap">Image slot · Apartment, balcony doors, Zetland</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <p class="note svc__foot">Sample pricing for a concept site. Final quotes depend on home size, condition and add-ons.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image band -->
+    <figure class="slot band" aria-label="Image band">
+      <div class="slot__frame r-21x9">
+        <canvas data-study="afternoon" role="img" aria-label="Image slot: late afternoon light across a quiet living room"></canvas>
+      </div>
+      <figcaption class="slot__cap">Image slot · Surry Hills apartment · Late afternoon</figcaption>
+    </figure>
+
+    <!-- 02 How it works -->
+    <section class="section" id="how" aria-labelledby="howTitle">
+      <div class="wrap grid">
+        <p class="label sec__label"><span class="label__num">02</span>How it works</p>
+        <div class="sec__body">
+          <div class="sec__head">
+            <h2 class="h-l" id="howTitle">Three steps, and one of them is coming home.</h2>
+          </div>
+          <ol class="steps">
+            <li class="step">
+              <span class="step__num">1</span>
+              <h3 class="h-title">Get a quote</h3>
+              <p>Tell us the service, bedrooms and bathrooms. You’ll see an estimated price straight away.</p>
+            </li>
+            <li class="step">
+              <span class="step__num">2</span>
+              <h3 class="h-title">We confirm your clean</h3>
+              <p>A real person confirms the time, access and final price within business hours. Nothing is booked until you agree.</p>
+            </li>
+            <li class="step">
+              <span class="step__num">3</span>
+              <h3 class="h-title">Come home to it</h3>
+              <p>Your cleaner works through the checklist and leaves a short note on the bench about anything they noticed.</p>
+            </li>
+          </ol>
+          <div class="steps__foot">
+            <button class="btn" type="button" data-quote>Get a quote <span class="btn__arrow" aria-hidden="true">→</span></button>
+            <span class="small">No lock-in. Pause or cancel regular cleans any time.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 What's included -->
+    <section class="section section--linen" id="included" aria-labelledby="includedTitle">
+      <div class="wrap grid">
+        <p class="label sec__label"><span class="label__num">03</span>What’s included</p>
+        <div class="sec__body">
+          <div class="sec__head">
+            <h2 class="h-l" id="includedTitle">Exactly what we do, room by room.</h2>
+            <p class="lede">Choose a service to see the checklist your cleaner works from.</p>
+          </div>
+          <div class="inc">
+            <div>
+              <div class="tabs" role="tablist" aria-label="Services" id="incTabs"></div>
+              <div id="incPanels"></div>
+            </div>
+            <figure class="slot inc__media" aria-hidden="true">
+              <div class="slot__frame r-4x5"><canvas data-study="vanity"></canvas></div>
+              <figcaption class="slot__cap">Image slot · Vanity and mirror, detail</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section" id="reviews" aria-labelledby="reviewsTitle">
+      <div class="wrap grid">
+        <h2 class="label reviews__label" id="reviewsTitle">What clients say</h2>
+        <blockquote class="quote-main">
+          <p class="h-l quote-main__text">“I stopped cleaning on Saturday mornings in March. I haven’t missed it once.”</p>
+        </blockquote>
+        <p class="quote-meta"><strong>Priya S.</strong><span>Marrickville</span><span>Regular clean, fortnightly</span></p>
+        <div class="quotes">
+          <blockquote class="quote-sm">
+            <p>“The agent finished the final inspection in ten minutes and our bond came back in full. They even did the window tracks.”</p>
+            <footer>Tom R. · Randwick · End of lease</footer>
+          </blockquote>
+          <blockquote class="quote-sm">
+            <p>“They did the skirting boards. Nobody does the skirting boards.”</p>
+            <footer>Hannah L. · Lane Cove · Deep clean</footer>
+          </blockquote>
+        </div>
+        <div class="reviews__foot">
+          <p class="small">Rated 4.9 out of 5 across 310 reviews.</p>
+          <p class="note">Sample reviews and rating, written for this concept site.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 Guarantees -->
+    <section class="section section--linen" id="guarantees" aria-labelledby="guaranteesTitle">
+      <div class="wrap grid">
+        <p class="label sec__label"><span class="label__num">04</span>Our promises</p>
+        <div class="sec__body">
+          <div class="sec__head">
+            <h2 class="h-l" id="guaranteesTitle">What we promise, in writing.</h2>
+          </div>
+          <ul class="promises">
+            <li class="promise">
+              <h3 class="h-title">Re-clean within 48 hours</h3>
+              <p>If something on the checklist was missed, tell us within two days and we’ll come back to fix it.</p>
+            </li>
+            <li class="promise">
+              <h3 class="h-title">The same cleaner</h3>
+              <p>Regular clients keep the same cleaner. If they’re away, we tell you who’s coming before the day.</p>
+            </li>
+            <li class="promise">
+              <h3 class="h-title">Bond-back re-clean</h3>
+              <p>If your agent flags anything we covered, we return within 72 hours at no charge.</p>
+            </li>
+            <li class="promise">
+              <h3 class="h-title">No lock-in</h3>
+              <p>No contracts or cancellation fees with 24 hours’ notice. Every cleaner is police-checked and insured.</p>
+            </li>
+          </ul>
+          <p class="note promises__note">Sample guarantees for a concept site.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 Areas -->
+    <section class="section" id="areas" aria-labelledby="areasTitle">
+      <div class="wrap grid">
+        <p class="label sec__label"><span class="label__num">05</span>Service areas</p>
+        <div class="sec__body">
+          <div class="sec__head">
+            <h2 class="h-l" id="areasTitle">Where we clean.</h2>
+          </div>
+          <div class="areas">
+            <div class="area">
+              <h3 class="h-m area__name">Inner West</h3>
+              <ul class="area__list"><li>Newtown</li><li>Enmore</li><li>Marrickville</li><li>Dulwich Hill</li><li>Petersham</li><li>Leichhardt</li><li>Annandale</li><li>Glebe</li><li>Balmain</li><li>Rozelle</li></ul>
+            </div>
+            <div class="area">
+              <h3 class="h-m area__name">Eastern Suburbs</h3>
+              <ul class="area__list"><li>Paddington</li><li>Woollahra</li><li>Bondi</li><li>Bronte</li><li>Coogee</li><li>Randwick</li><li>Kensington</li><li>Double Bay</li><li>Rose Bay</li></ul>
+            </div>
+            <div class="area">
+              <h3 class="h-m area__name">Inner City</h3>
+              <ul class="area__list"><li>Surry Hills</li><li>Darlinghurst</li><li>Redfern</li><li>Chippendale</li><li>Potts Point</li><li>Pyrmont</li><li>Ultimo</li><li>Waterloo</li><li>Zetland</li></ul>
+            </div>
+            <div class="area">
+              <h3 class="h-m area__name">Lower North Shore</h3>
+              <ul class="area__list"><li>North Sydney</li><li>Kirribilli</li><li>Crows Nest</li><li>Neutral Bay</li><li>Cremorne</li><li>Mosman</li><li>Waverton</li><li>Lane Cove</li></ul>
+            </div>
+          </div>
+          <p class="small areas__foot">Not on the list? <button class="link" type="button" data-quote>Ask for a quote</button> anyway. We often cover nearby suburbs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--tight-top" id="faq" aria-labelledby="faqTitle">
+      <div class="wrap grid">
+        <h2 class="label sec__label" id="faqTitle">Questions</h2>
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__q">Do I need to be home?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">No. Most clients leave a key in a lockbox or with concierge. We note access details on your booking and your cleaner locks up when they leave.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">Do you bring the supplies?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">Yes. We bring everything, including a vacuum and mop. Our standard products are low-fragrance and plant-based. If you’d prefer we use your own products, leave them out and let us know.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">How is the price worked out?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">By service, number of bedrooms and bathrooms, and any add-ons. The quote gives you an estimated range. We confirm a fixed price before booking, and it only changes if the home is very different from what was described.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">What about pets?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">Pets are welcome. Tell us who lives there when you book, and whether anyone needs to stay in a room or out of the yard while we work.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">What if I need to cancel or reschedule?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">Give us 24 hours’ notice and there’s no charge. Regular cleans can be paused while you’re away.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">What does the bond-back re-clean cover?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">Anything on our end of lease checklist that your agent flags at the final inspection. Send us the agent’s notes within 72 hours and we’ll return to fix it. It doesn’t cover damage, wear, or areas that weren’t accessible on the day.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">Who are the cleaners?<span class="faq__sign" aria-hidden="true">+</span></summary>
+            <p class="faq__a">A small team of employed cleaners, not a marketplace of contractors. Each one is police-checked, insured and trained on our checklists before their first clean.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing quote -->
+    <section class="section close" id="quote" aria-labelledby="closeTitle">
+      <div class="wrap grid close__grid">
+        <div class="close__intro">
+          <p class="label">Get a quote</p>
+          <h2 class="h-l" id="closeTitle">Your Saturday, back.</h2>
+          <p class="lede">Tell us about your home and see an estimate straight away. A person confirms the details before anything is booked.</p>
+          <p class="note">Demo quote. Nothing you enter here is sent or stored.</p>
+        </div>
+        <form class="close__form qform" id="inlineQuote" novalidate>
+          <!-- Rendered by app.js: service, bedrooms, bathrooms, estimate -->
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap grid footer__grid">
+      <div class="footer__brand">
+        <a class="wordmark" href="#top">Kept<span class="wordmark__dot">.</span></a>
+        <p class="small">Home cleaning for Sydney houses and apartments.</p>
+      </div>
+      <div class="footer__col">
+        <p class="label">Services</p>
+        <a href="#services">Regular cleaning</a>
+        <a href="#services">Deep cleaning</a>
+        <a href="#services">End of lease</a>
+        <a href="#services">Apartment cleaning</a>
+      </div>
+      <div class="footer__col">
+        <p class="label">Areas</p>
+        <a href="#areas">Inner West</a>
+        <a href="#areas">Eastern Suburbs</a>
+        <a href="#areas">Inner City</a>
+        <a href="#areas">Lower North Shore</a>
+      </div>
+      <div class="footer__col">
+        <p class="label">Kept</p>
+        <a href="#how">How it works</a>
+        <a href="#included">What’s included</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer__col footer__contact">
+        <p class="label">Contact</p>
+        <span>02 5550 4821</span>
+        <span>hello@kept.example</span>
+        <span>Mon to Sat, 7am to 6pm</span>
+      </div>
+      <div class="footer__legal">
+        <p class="note">Kept is a fictional business created for a concept website. The phone number, email, ABN 00 000 000 000, insurance cover, prices, reviews, ratings and guarantees shown are sample content.</p>
+        <p class="note">© <span id="year">2026</span> Kept (concept)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="mbar" id="mbar" aria-hidden="true">
+    <button class="btn" type="button" data-quote tabindex="-1">Get a quote <span class="btn__arrow" aria-hidden="true">→</span></button>
+    <a class="btn btn--ghost" href="tel:0255504821" tabindex="-1">Call</a>
+  </div>
+
+  <!-- Demo quote dialog -->
+  <dialog class="qdialog" id="quoteDialog" aria-labelledby="qdTitle">
+    <div class="qd__head">
+      <p class="label" id="qdStepLabel">Step 1 of 3</p>
+      <button class="qd__close" type="button" id="qdClose">Close</button>
+    </div>
+    <div class="qd__progress" aria-hidden="true"><span></span><span></span><span></span></div>
+    <form class="qd__body" id="qdForm" novalidate>
+      <!-- Rendered by app.js -->
+    </form>
+    <div class="qd__foot" id="qdFoot">
+      <div class="qd__est" aria-live="polite">
+        <span class="price-from">Estimated range</span>
+        <output class="estimate__value" id="qdEstimate" form="qdForm">$149–$169</output>
+        <span class="note" id="qdEstimateSub">per clean · sample pricing</span>
+      </div>
+      <div class="qd__nav">
+        <button class="btn btn--ghost" type="button" id="qdBack">Back</button>
+        <button class="btn" type="button" id="qdNext">Continue <span class="btn__arrow" aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </dialog>
+</div>
+
+<!-- build:js js/data.js -->
+<!-- build:js js/studies.js -->
+<!-- build:js js/app.js -->
